@@ -1,0 +1,190 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   background-color: #FDF7ED;
+   font-family: Arial, sans-serif;
+   color: #252525;
+}
+
+/* HEADER */
+header {
+   width: 100%;
+   height: 68px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   background-color: #FEFAF3;
+}
+header img {
+   width: 48px;
+   height: 48px;
+   margin-left: 17px;
+}
+header h1 {
+   margin: 0 0 0 10px;
+   font-size: 20px;
+}
+header p {
+   position: absolute;
+   margin-left: 76px;
+   margin-top: 40px;
+   font-size: 9px;
+   font-weight: bold;
+   color: #1A1F24;
+}
+header nav {
+   position: absolute;
+   right: 52px;
+   top: 23px;
+}
+header nav a {
+   font-size: 14px;
+   color: #333;
+   text-decoration: none;
+}
+
+/* ÁREA PRINCIPAL */
+main {
+   display: flex;
+   width: 100%;
+}
+
+/* BARRA LATERAL */
+.barra-botoes {
+   width: 220px;
+   height: 785px;
+   background-color: #FEFAF3;
+   padding-top: 8px;
+   position: relative;
+}
+.barra-botoes > a {
+   width: 180px;
+   height: 48px;
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+   color: #293444;
+   text-decoration: none;
+   font-size: 16px;
+}
+.barra-botoes a img {
+   width: 27px;
+   height: 27px;
+   object-fit: contain;
+   margin-right: 20px;
+}
+
+/* FRASE DA LATERAL */
+.barra-botoes  div {
+   width: 170px;
+   height: 125px;
+   margin-left: 28px;
+   margin-top: 70px;
+   padding: 15px 12px;
+   background-color: #eddfd0;
+   border-radius: 12px;
+}
+.barra-botoes  div p {
+   margin: 0;
+   color: #d09475;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+/* FLOR */
+.barra-botoes > img {
+   width: 155px;
+   height: 155px;
+   object-fit: contain;
+   margin-left: 22px;
+   margin-top: 65px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.conteudo{
+    width: calc(100% - 220px);
+    padding: 40px 40px 40px 42px;
+}
+
+.conteudo .ola {
+    height: 80px;
+    margin-bottom:20px;
+    position: relative;
+}
+
+
+
+
+
+/* BOTÃO ADICIONAR INSUMO */
+.adicionar-insumo {
+   position: absolute;
+   right: 190px;
+   top: 8px;
+   width: 148px;
+   height: 58px;
+   background-color: #bd553c;
+   border-radius: 7px;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+
+.adicionar-insumo .mais {
+   margin: 0 8px 0 12px;
+   font-size: 30px;
+}
+
+.adi-insumo {
+   margin: 0;
+   font-size: 13px;
+}
+
+/* BOTÃO ADICIONAR PRODUTO */
+.adicionar-produto {
+   position: absolute;
+   right: 0;
+   top: 8px;
+   width: 148px;
+   height: 58px;
+   background-color: #bd553c;
+   border-radius: 7px;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+.adicionar-produto .mais {
+   margin: 0 8px 0 12px;
+   font-size: 30px;
+}
+.adi-produto {
+   margin: 0;
+   font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.folhinha{
+    position:relative;
+    bottom: 5px
+}
